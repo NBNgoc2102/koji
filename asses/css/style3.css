@@ -578,6 +578,9 @@ ul li {
     color: #008B5C;
     font-weight: 600;
 }
+.list-pagination ion-icon {
+    margin-top: 4px;
+}
 #footer{
     position: relative;
     background: url(../img/Rectangle\ 422.jpg);

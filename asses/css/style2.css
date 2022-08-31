@@ -697,7 +697,7 @@ ul li {
     }
 }
 .pagination{
-    padding-top: 82px;
+    padding-top: 24px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -710,6 +710,9 @@ ul li {
 .list-pagination a:hover{
     color: #008B5C;
     font-weight: 700;
+}
+.list-pagination ion-icon{
+    vertical-align: text-top;
 }
 #footer{
     position: relative;
