@@ -1234,7 +1234,6 @@ ul li {
 
 
 .slider{
-    /* height: 100vh; */
     background-image: linear-gradient(to right,  #008b5d9e,  #008b5dab),url(../img/Rectangle\ 412.png);
     background-size: cover;
     position: relative;

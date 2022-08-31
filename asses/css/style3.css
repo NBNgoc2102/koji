@@ -473,7 +473,7 @@ ul li {
     }
 }
 
-.content-img{
+.content-img{ 
     position: relative;
     overflow: hidden;
     cursor: pointer;
