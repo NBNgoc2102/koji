@@ -557,6 +557,11 @@ ul li {
         bottom: 35px;
     }
 }
+@media only screen and (max-width:468px){
+    .content-addres{
+        bottom: 20px;
+    }
+}
 .content-addres span {
     color: #fff;
 }
