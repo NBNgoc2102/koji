@@ -1512,7 +1512,7 @@ background-clip: text;
 }
 @media only screen and (max-width:468px){
     .slide-list-item{
-        margin: 10px -11px;
+        /* margin: 10px -11px; */
         width: 250px;
 
     }
@@ -1537,8 +1537,8 @@ background-clip: text;
     .slide-text{
     top: 137px;
     height: 45px;
-    left: 68px;
-    width: 240px;
+    left: 0;
+    /* width: 240px; */
     }
 }
 .slide-text span{
