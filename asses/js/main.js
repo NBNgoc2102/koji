@@ -26,7 +26,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000,
         centerPadding: '60px',
         variableWidth: true,

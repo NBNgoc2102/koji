@@ -11,7 +11,6 @@ ul li {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 #header{
     width: 100%;
@@ -711,22 +710,20 @@ ul li {
     }
 }
 .idea{
-    padding-bottom:20px;
+    padding-bottom:0;
 }
 
+@media only screen and (max-width:820px){
+    .idea{
+padding-bottom: 40%;
+    }
+}
 .idea-item{
     padding-top: 47px;
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-width:820px){
-    .idea-item{
-        display: block;
-        padding-top: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
+
 @media only screen and (max-width:468px){
     .idea-item{
         display: block;
@@ -827,6 +824,7 @@ ul li {
         padding-right: 0;
     }
 }
+
 .related-project-title{
     padding-top: 65px;
 }
@@ -835,6 +833,7 @@ ul li {
         padding-top: 5px;
     }
 }
+
 .related-project-title p {
     font-weight: 700;
     font-size: 24px;
@@ -851,7 +850,7 @@ ul li {
 .project-item{
     position: relative;
     display: flex;
-    padding-top: 47px;
+    padding-top: 60px;
     height: 335px;
     width: 500px;
     margin: 0 auto;
@@ -866,10 +865,6 @@ ul li {
 }
 .project-item:hover{
     transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
 }
 
 .relate-project-list{
@@ -913,16 +908,25 @@ ul li {
     position: absolute;
     height: 69px;
     background: rgba(37, 37, 37, 0.485);
-    width: 100%;
+    width: 99%;
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: 0;
+    left: 4px;
 }
 @media only screen and (max-width: 468px){
     .project-detail{
         width: 93%;
         height: 41px;
+        margin-left: 12px;
+
+    }
+}
+@media only screen and (min-width: 820px){
+    .project-detail{
+        width: 97%;
+        height: 70px;
         margin-left: 12px;
 
     }
@@ -985,7 +989,7 @@ ul li {
 @media only screen and (max-width: 820px){
     #footer{
         height: auto;
-        padding-bottom: 30px;
+        top: 100px;
     }
 }
 .footer-content{
@@ -1109,7 +1113,6 @@ ul li {
 @media only screen and (max-width: 820px){
     .end-footer{
         width: 100%;
-        /* justify-content: space-around; */
 
     }
 }

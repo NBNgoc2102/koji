@@ -1492,13 +1492,14 @@ background-clip: text;
 .slide-list-item {
     margin: 80px 40px;
     width: 550px;
+    position: relative;
 
 }
 @media only screen and (max-width:820px) {
     .slide-list-item {
-        margin: 63px 0;
-        padding-left: 25px;
-        padding-right: 25px;
+        
+        /* padding-left: 25px;
+        padding-right: 25px; */
         width: 400px;
 
     }
@@ -1522,11 +1523,11 @@ background-clip: text;
     }
 }
 .slide-text{
-    width: 49%;
+    width: 100%;
     justify-content: center;
     height: 69px;
     position: absolute;
-    left: 25.5%;
+    left: 0;
     bottom: 68px;
     background: rgba(0, 0, 0, 0.4);
     display: flex;
