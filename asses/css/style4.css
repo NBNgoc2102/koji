@@ -157,7 +157,6 @@ ul li {
         width: 100%;
         margin: 0 auto;
         justify-content: center;
-        /* z-index: 99999; */
         cursor: pointer;
         background: #fff;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -170,7 +169,6 @@ ul li {
         width: 100%;
         margin: 0 auto;
         justify-content: center;
-        /* z-index: 99999; */
         cursor: pointer;
         background: #fff;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -183,7 +181,6 @@ ul li {
         width: 100%;
         margin: 0 auto;
         justify-content: center;
-        /* z-index: 99999; */
         cursor: pointer;
         background: #fff;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -207,45 +204,38 @@ ul li {
         height: 64px;
     }
 }
-
 .header-item-menu{
     padding-left: 46px;
 }
 @media only screen and (max-width: 1028px){
     .header-item-menu{
         padding-left: 0;
-
     }
 }
 @media only screen and (max-width: 468px){
     .header-item-menu{
         padding-left: 0;
-
     }
 }
 @media only screen and (max-width: 820px){
     .header-item-menu{
         padding-left: 0;
-
     }
 }
 .list-menu li {
     padding: 20px 19px;
     color: #fff;
-
 }
 @media only screen and (max-width: 1028px){
     .list-menu li {
         padding: 20px 95px;
         color: #fff;
-    
     }
 }
 @media only screen and (max-width: 820px){
     .list-menu li {
         padding: 20px 0;
         color: #fff;
-    
     }
 }
 .list-menu li a{
@@ -400,7 +390,6 @@ ul li {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.banner-
 .banner-btn ion-icon{
     padding-right: 22px;
 }
@@ -416,15 +405,13 @@ ul li {
     line-height: 59px;
     color: #FFFFFF;
 }
-
 .banner-title span{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     text-transform: uppercase;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
 }
 .banner-text{
     padding-top: 15px;
@@ -472,7 +459,6 @@ ul li {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
 @media only screen and (max-width: 820px){
     .date , .client , .area , .address{
         padding-right: 0;
@@ -568,7 +554,6 @@ ul li {
         padding-right: 20px;
     }
 }
-
 .item-title p{
     font-style: normal;
     font-weight: 700;
@@ -640,7 +625,6 @@ ul li {
     .detail-content ul li{
         font-size: 18px;
         list-style-type: none;
-    
     }
 }
 @media only screen and (max-width: 468px){
@@ -733,15 +717,6 @@ padding-bottom: 0;
     display: flex;
     justify-content: space-between;
 }
-
-@media only screen and (max-width:468px){
-    .idea-item{
-        display: block;
-        padding-top: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
 @media only screen and (max-width: 820px){
     .idea-item{
         display: block;
@@ -750,11 +725,19 @@ padding-bottom: 0;
         padding-right: 0;
     }
 }
+@media only screen and (max-width:468px){
+    .idea-item{
+        display: block;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 @media only screen and (max-width: 820px){
     .idea-title{
         text-align: center;
     }
-    
 }
 .idea-title p {
     font-style: normal;
@@ -767,7 +750,6 @@ padding-bottom: 0;
     .idea-title p {
         text-align: center;
         padding-bottom: 0;
-
     }
 }
 @media only screen and (max-width: 468px){
