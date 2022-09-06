@@ -856,6 +856,7 @@ padding-bottom: 0;
     }
 }
 .project-item:hover{
+    cursor: pointer;
     transform: scale(1.1);
 }
 
