@@ -1724,18 +1724,16 @@ background-clip: text;
     cursor: pointer;
     background-color: #008b5c;
 }
-@media only screen and (max-width: 468px){
+@media only screen and (max-width: 820px){
     .slide-showAll{
-        bottom: 9px;
+        bottom: 50px;
         width: 137px;
         font-size: 12px;
     }
 }
-@media only screen and (max-width: 820px){
+@media only screen and (max-width: 468px){
     .slide-showAll{
-        bottom: 9px;
-        width: 137px;
-        font-size: 12px;
+
     }
 }
 .slide-showAll a{
