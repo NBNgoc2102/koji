@@ -290,7 +290,13 @@ ul li {
     transform: scaleX(1);
 }
 .search-icon{
+    color: #575757;
     font-size: 20px;
+}
+@media only screen and (max-width:1024px){
+    .search-icon{
+        color: #fff;
+    }
 }
 .menu-reponsive{
     position: absolute;

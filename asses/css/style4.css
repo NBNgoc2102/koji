@@ -291,6 +291,11 @@ ul li {
     font-size: 20px;
     color:#575757;
 }
+@media only screen and (max-width:1024px){
+    .search-icon{
+        color: #fff;
+    }
+}
 .menu-reponsive{
     position: absolute;
     left: 20px;
