@@ -12,6 +12,64 @@ ul li {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+#navbar {
+    z-index: 99999;
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    top: -90px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: top 0.3s;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+@media only screen and (max-width: 820px){
+    #navbar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 468px){
+    #navbar{
+        display: none;
+    }
+}
+  
+#navbar a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  #navbar a:hover{
+    color: #ffd690;
+  }
+  #navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ffd690;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  #navbar a:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+
 #header{
     width: 100%;
     height: 100vh;
@@ -24,6 +82,7 @@ ul li {
         position: relative;
     }
 }
+
 
 @media only screen and (max-width:820px){
     .header-content{
@@ -162,6 +221,7 @@ ul li {
     width: 133px;
     height: 90px;
 }
+
 @media only screen and (max-width: 468px){
     .header-item-logo{
         width: 91px;
@@ -175,6 +235,7 @@ ul li {
         height: 64px;
     }
 }
+
 .header-item-logo a img{
     position: absolute;
     top: 0;
@@ -2530,16 +2591,32 @@ background-clip: text;
     width: 100%;
     overflow: hidden;
 }
+@media only screen and (max-width: 820px){
+    #footer{
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
 @media only screen and (max-width: 468px){
     #footer{
         height: auto;
         padding-bottom: 30px;
     }
 }
+
+@media only screen and (max-width: 1028px){
+    .container{
+    width: 910px;
+    }
+}
 @media only screen and (max-width: 820px){
-    #footer{
-        height: auto;
-        padding-bottom: 30px;
+    .container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 468px){
+    .footer-fanpage{
+        margin: 3px;
     }
 }
 .footer-content{
