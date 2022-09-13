@@ -325,7 +325,7 @@ ul li {
     background: #E9ECEF;
 }
 .content-item{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px 12px;
     border-radius: 10px;
 }
@@ -416,7 +416,7 @@ ul li {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px 12px;
     border-radius: 10px;
-}
+} 
 .fb-comments{
     height: 300px;
 }
@@ -504,7 +504,7 @@ ul li {
     color: #008B5C;
 }
 .post-date p {
-    padding-left: 5px;
+    padding-left: 5px; 
     margin-bottom: 0;
 }
 
@@ -642,7 +642,7 @@ ul li {
     }
     .post-title{
         font-size: 14px;
-    }
+    } 
     .related-text span{
         font-size: 14px;
     }
