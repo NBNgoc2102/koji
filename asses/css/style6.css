@@ -470,10 +470,18 @@ ul li {
 .row{
     padding-bottom: 80px;
 }
+@media only screen and (max-width:1028px){
+    .row{
+        padding-bottom: 20px;}
+    }
 @media only screen and (max-width:820px){
 .row{
-    padding-bottom: 0;}
+    padding-bottom: 30px;}
 }
+@media only screen and (max-width:468px){
+    .row{
+        padding-bottom: 60px;}
+    }
 #footer{
     position: relative;
     background: url(../img/Rectangle\ 422.jpg);
