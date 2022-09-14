@@ -352,7 +352,6 @@ ul li {
 .tag-item:nth-child(2) a{
     font-weight: 700;
 }
-.content-title{}
 .content-title h1 {
     text-align: center;
     margin-top: 12px;
@@ -469,7 +468,11 @@ ul li {
     }
 }
 .row{
-    height: 460px;
+    padding-bottom: 80px;
+}
+@media only screen and (max-width:820px){
+.row{
+    padding-bottom: 0;}
 }
 #footer{
     position: relative;
@@ -507,6 +510,9 @@ ul li {
     .footer-content{
         flex-wrap: wrap;
     }
+}
+.footer-content .row{
+    padding-bottom: 0px;
 }
 @media only screen and (max-width: 468px){
     .footer-item{

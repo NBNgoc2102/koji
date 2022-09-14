@@ -469,7 +469,7 @@ ul li {
     text-transform: uppercase;
     font-size:18px;
 }
-.category-item ul{
+.category-$ git config --listitem ul{
     padding-left: 0;
 }
 .category-item ul li{
@@ -477,6 +477,9 @@ ul li {
 }
 .category-item ul li a {
     color: #000;
+}
+.category-item ul li a:hover{
+    color: #008B5C;
 }
 .post-title{
     margin-left: 10px;
